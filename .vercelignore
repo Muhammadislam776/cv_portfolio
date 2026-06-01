@@ -1,3 +1,12 @@
+backend/package.json
+backend/package-lock.json
+backend/node_modules/
+backend/.env
+frontend/package.json
+frontend/package-lock.json
+frontend/node_modules/
+frontend/.env
+frontend/.next/
 deployment/
 database/
 tests/
@@ -6,3 +15,4 @@ docs/
 .gitignore
 README.md
 .env.example
+.DS_Store
