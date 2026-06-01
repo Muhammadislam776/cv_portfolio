@@ -1,0 +1,86 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1B22"/>
+      <stop offset="1" stop-color="#102B34"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="260" y1="220" x2="940" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162F39"/>
+      <stop offset="1" stop-color="#0F2028"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E6D0"/>
+      <stop offset="1" stop-color="#2BE6A5"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9FBFD"/>
+      <stop offset="1" stop-color="#DDE8F0"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFB703"/>
+      <stop offset="1" stop-color="#FB8500"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="800" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="135" cy="120" r="62" fill="#00E6D0" fill-opacity="0.08"/>
+  <circle cx="1080" cy="120" r="95" fill="#00E6D0" fill-opacity="0.06"/>
+  <circle cx="980" cy="680" r="140" fill="#00E6D0" fill-opacity="0.05"/>
+  <path d="M120 610C260 560 350 470 455 414C562 356 658 324 820 330C935 335 1020 370 1100 438" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 18" opacity="0.6"/>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="120" width="900" height="560" rx="36" fill="url(#panel)" stroke="#203945" stroke-width="2"/>
+
+    <rect x="195" y="160" width="810" height="62" rx="18" fill="#091820" fill-opacity="0.9" stroke="#1E3946"/>
+    <rect x="225" y="180" width="260" height="22" rx="11" fill="#17313C"/>
+    <rect x="515" y="180" width="150" height="22" rx="11" fill="#17313C"/>
+    <circle cx="870" cy="191" r="13" fill="none" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M879 200L889 210" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="195" y="252" width="340" height="348" rx="24" fill="#0B1820" stroke="#274350"/>
+    <rect x="225" y="285" width="190" height="18" rx="9" fill="url(#accent)" fill-opacity="0.9"/>
+    <text x="225" y="335" fill="#F3F8FB" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Committee Hub</text>
+    <text x="225" y="370" fill="#9DB4C0" font-family="Inter, Arial, sans-serif" font-size="16">Members, payouts, and dues</text>
+
+    <rect x="225" y="405" width="140" height="140" rx="28" fill="url(#card)"/>
+    <circle cx="295" cy="454" r="34" fill="url(#warm)"/>
+    <circle cx="280" cy="444" r="6" fill="#fff" fill-opacity="0.9"/>
+    <circle cx="310" cy="444" r="6" fill="#fff" fill-opacity="0.9"/>
+    <path d="M275 472C287 488 303 488 315 472" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+    <rect x="383" y="405" width="122" height="140" rx="22" fill="url(#card)"/>
+    <rect x="404" y="428" width="80" height="14" rx="7" fill="#99A8B6"/>
+    <rect x="404" y="454" width="92" height="14" rx="7" fill="#C2D0DA"/>
+    <rect x="404" y="480" width="70" height="14" rx="7" fill="#C2D0DA"/>
+    <rect x="404" y="506" width="56" height="14" rx="7" fill="#00E6D0"/>
+
+    <rect x="568" y="252" width="442" height="348" rx="24" fill="#0B1820" stroke="#274350"/>
+    <text x="600" y="294" fill="#F3F8FB" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Monthly Dashboard</text>
+
+    <rect x="600" y="324" width="180" height="110" rx="20" fill="#132A33" stroke="#23414D"/>
+    <text x="625" y="364" fill="#9DB4C0" font-family="Inter, Arial, sans-serif" font-size="15">Collected</text>
+    <text x="625" y="405" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">48K</text>
+    <circle cx="745" cy="378" r="24" fill="url(#accent)" fill-opacity="0.14"/>
+    <path d="M735 378L744 387L757 367" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="800" y="324" width="178" height="110" rx="20" fill="#132A33" stroke="#23414D"/>
+    <text x="825" y="364" fill="#9DB4C0" font-family="Inter, Arial, sans-serif" font-size="15">Active Members</text>
+    <text x="825" y="405" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">128</text>
+    <circle cx="942" cy="378" r="24" fill="url(#warm)" fill-opacity="0.18"/>
+    <path d="M931 391C931 382 935 375 942 375C949 375 953 382 953 391" stroke="url(#warm)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="942" cy="366" r="8" fill="url(#warm)"/>
+
+    <rect x="600" y="456" width="378" height="102" rx="20" fill="#132A33" stroke="#23414D"/>
+    <rect x="626" y="484" width="102" height="18" rx="9" fill="#274350"/>
+    <rect x="626" y="514" width="230" height="12" rx="6" fill="#274350"/>
+    <rect x="626" y="534" width="184" height="12" rx="6" fill="#274350"/>
+    <path d="M882 504C906 486 928 486 948 504" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="878" cy="504" r="8" fill="url(#accent)"/>
+    <circle cx="952" cy="504" r="8" fill="url(#accent)"/>
+  </g>
+
+  <rect x="180" y="670" width="840" height="10" rx="5" fill="#00E6D0" fill-opacity="0.18"/>
+</svg>

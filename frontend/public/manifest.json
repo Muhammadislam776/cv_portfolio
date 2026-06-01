@@ -1,0 +1,32 @@
+{
+  "name": "Muhammad Islam - Portfolio",
+  "short_name": "MI Portfolio",
+  "description": "Portfolio of Muhammad Islam - Full Stack Web Developer. Showcasing projects and skills in React, Node.js, Express, and MongoDB.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#001e24",
+  "background_color": "#001e24",
+  "icons": [
+    {
+      "src": "/images/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-maskable.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "business"]
+}

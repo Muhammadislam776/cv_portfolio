@@ -1,0 +1,88 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1720"/>
+      <stop offset="1" stop-color="#112C36"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="240" y1="160" x2="960" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132B36"/>
+      <stop offset="1" stop-color="#0C2028"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E6D0"/>
+      <stop offset="1" stop-color="#34E89E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FCA311"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8FBFD"/>
+      <stop offset="1" stop-color="#DDE8F0"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="800" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="150" cy="130" r="70" fill="#00E6D0" fill-opacity="0.06"/>
+  <circle cx="1050" cy="120" r="90" fill="#00E6D0" fill-opacity="0.05"/>
+  <circle cx="960" cy="690" r="150" fill="#00E6D0" fill-opacity="0.05"/>
+  <path d="M120 620C260 560 360 500 470 448C590 392 716 360 850 366C965 370 1040 404 1120 470" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 16" opacity="0.55"/>
+
+  <g filter="url(#shadow)">
+    <rect x="140" y="120" width="920" height="560" rx="34" fill="url(#panel)" stroke="#23404D" stroke-width="2"/>
+
+    <rect x="186" y="160" width="828" height="66" rx="18" fill="#0A1720" stroke="#223C48"/>
+    <rect x="215" y="180" width="250" height="22" rx="11" fill="#17303B"/>
+    <circle cx="905" cy="193" r="14" fill="none" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M914 202L924 212" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="186" y="248" width="390" height="360" rx="26" fill="#0B1820" stroke="#27424F"/>
+    <text x="220" y="294" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Smart Student Clearance</text>
+    <text x="220" y="326" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="16">Student approvals and status tracking</text>
+
+    <rect x="220" y="360" width="320" height="64" rx="18" fill="#132A33" stroke="#2A4653"/>
+    <circle cx="252" cy="392" r="16" fill="url(#accent)" fill-opacity="0.18"/>
+    <path d="M246 392L251 398L259 384" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="284" y="388" fill="#F5FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Department Verification</text>
+    <text x="284" y="410" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="14">Approved</text>
+
+    <rect x="220" y="440" width="320" height="64" rx="18" fill="#132A33" stroke="#2A4653"/>
+    <circle cx="252" cy="472" r="16" fill="url(#gold)" fill-opacity="0.18"/>
+    <path d="M243 472H261" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+    <text x="284" y="468" fill="#F5FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Accounts Clearance</text>
+    <text x="284" y="490" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="14">In Progress</text>
+
+    <rect x="220" y="520" width="320" height="64" rx="18" fill="#132A33" stroke="#2A4653"/>
+    <circle cx="252" cy="552" r="16" fill="#F44336" fill-opacity="0.18"/>
+    <path d="M245 545L259 559M259 545L245 559" stroke="#F44336" stroke-width="4" stroke-linecap="round"/>
+    <text x="284" y="548" fill="#F5FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Library Clearance</text>
+    <text x="284" y="570" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="14">Pending</text>
+
+    <rect x="610" y="248" width="424" height="360" rx="26" fill="#0B1820" stroke="#27424F"/>
+    <text x="644" y="292" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Dashboard</text>
+
+    <rect x="644" y="322" width="164" height="110" rx="22" fill="#132A33" stroke="#23414D"/>
+    <text x="670" y="360" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="15">Clearance Rate</text>
+    <text x="670" y="404" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">92%</text>
+    <circle cx="782" cy="378" r="24" fill="url(#accent)" fill-opacity="0.14"/>
+    <path d="M772 378L780 386L794 368" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="826" y="322" width="174" height="110" rx="22" fill="#132A33" stroke="#23414D"/>
+    <text x="850" y="360" fill="#9CB2BF" font-family="Inter, Arial, sans-serif" font-size="15">Requests</text>
+    <text x="850" y="404" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">36</text>
+    <circle cx="958" cy="378" r="24" fill="url(#gold)" fill-opacity="0.16"/>
+    <path d="M946 386L958 368L970 386" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="644" y="454" width="356" height="92" rx="20" fill="#132A33" stroke="#23414D"/>
+    <rect x="670" y="480" width="120" height="16" rx="8" fill="#274350"/>
+    <rect x="670" y="506" width="240" height="12" rx="6" fill="#274350"/>
+    <rect x="670" y="524" width="186" height="12" rx="6" fill="#274350"/>
+    <rect x="928" y="478" width="46" height="46" rx="15" fill="url(#accent)" fill-opacity="0.18"/>
+    <path d="M942 503L950 511L962 493" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="180" y="700" width="840" height="8" rx="4" fill="#00E6D0" fill-opacity="0.16"/>
+</svg>
