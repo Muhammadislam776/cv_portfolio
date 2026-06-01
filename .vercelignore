@@ -1,0 +1,8 @@
+deployment/
+database/
+tests/
+docs/
+.git
+.gitignore
+README.md
+.env.example
